@@ -7,8 +7,8 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        changeTitle(){
-         this.title = 'Word of Randian'
+        changeTitle(title){
+         this.title = title
         }
     }
 }) 
